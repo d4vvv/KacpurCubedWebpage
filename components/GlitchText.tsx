@@ -8,7 +8,6 @@ interface GlitchTextProps {
 
 export default function GlitchText({ children, className = '', as: Tag = 'span' }: GlitchTextProps) {
   return (
-    // @ts-expect-error dynamic tag
     <Tag className={`glitch ${className}`} data-text={children}>
       {children}
     </Tag>
