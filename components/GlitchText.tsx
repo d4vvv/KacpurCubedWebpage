@@ -1,7 +1,9 @@
+import { ElementType } from 'react'
+
 interface GlitchTextProps {
   children: string
   className?: string
-  as?: keyof JSX.IntrinsicElements
+  as?: ElementType
 }
 
 export default function GlitchText({ children, className = '', as: Tag = 'span' }: GlitchTextProps) {
