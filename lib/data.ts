@@ -120,7 +120,7 @@ export const STR: Record<Lang, Translations> = {
       p9:  { title: 'Bedoes 2115',        meta: 'Polish rapper' },
       p10: { title: 'Ed Sheeran',        meta: 'Famous musician' },
       p2:  { title: 'OKI',               meta: 'Polish musician' },
-      p3:  { title: 'Barley The Burr',   meta: 'Twitch streamer' },
+      p3:  { title: 'Vessel',            meta: 'Sleep Token vocalist' },
       p7:  { title: 'Two of a kind',     meta: 'finished builds · studio' },
     },
     reels: {
