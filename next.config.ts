@@ -5,9 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  experimental: {
-    outputFileTracingRoot: path.join(__dirname),
-  },
+  outputFileTracingRoot: path.join(__dirname),
 }
 
 export default nextConfig
